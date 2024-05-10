@@ -171,6 +171,7 @@ class DiffusionGenerationEpicDream:
             height=height,
             width=width,
             generator=generator,
+            num_inference_steps = 75,
         )
         output_image = result.images[0]
 
